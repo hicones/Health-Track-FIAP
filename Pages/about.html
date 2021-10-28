@@ -1,0 +1,95 @@
+<!doctype html>
+<head lang="pt-br">
+  <head>
+    <title>Sobre o Health Track</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/home.css">
+  </head>
+  <body>
+    <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+      <div class="wrapper">
+         <ul>
+            <li><a href="./home.html">Inicio</a></li>
+            <li><a href="./about.html">Sobre</a></li>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#">Exercícios</a></li>
+            <li><a href="#">Sua conta</a></li>
+         </ul>
+      </div>
+      <nav>
+        <div class="logo"><a href="./home.html">HEALTH TRACK</a></div>
+      </nav>
+
+      <div class="container" id="main">
+        <p class="h1">Sobre o Health Track</p>
+        <div class="container" id="pe">
+          <p>
+            É uma solução que permita registrar peso, altura, pressão arterial, alimentos ingeridos, períodos de atividade física, entre outros, com o objetivo de acompanhar a saúde de seu usuário.
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="images">
+           <img src="../Images/1.jpg">
+           <img src="../Images/2.jpg">
+           <img src="../Images/3.jpg">
+        </div>
+     </div>
+     <script>
+        var indexValue = 0;
+        function slideShow(){
+          setTimeout(slideShow, 2500);
+          var x;
+          const img = document.querySelectorAll("img");
+          for(x = 0; x < img.length; x++){
+            img[x].style.display = "none";
+          }
+          indexValue++;
+          if(indexValue > img.length){indexValue = 1}
+          img[indexValue -1].style.display = "block";
+        }
+        slideShow();
+     </script>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>Sobre</h6>
+              <p>Health Track é um projeto desenvolvido por alunos da Faculdade de Informática e Administração Paulista (FIAP).</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h6>Contato</h6>
+              <ul class="footer-links">
+                <li><a href="https://github.com/hicones">GitHub</a></li>
+                <li><a href="#">Devhenrique.almeida@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+           <a href="https://github.com/hicones">Hicones</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+     </footer>
+  </body>
+</html>

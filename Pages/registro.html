@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <title>Registro Health Track</title>
+      <link rel="stylesheet" href="../Styles/Styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <header>Registro Health Track</header>
+         <form>
+            <div class="input-field">
+               <input type="text" required>
+               <label>Insira o seu Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" required>
+              <label>Crie o seu Usuário</label>
+           </div>
+            <div class="input-field">
+               <input class="pswrd" type="password" required>
+               <span class="show">Mostrar</span>
+               <label>Crie sua senha</label>
+            </div>
+            <div class="input-field">
+              <input class="pswrd" type="password" required>
+              <span class="show">Mostrar</span>
+              <label>Repita sua senha</label>
+           </div>
+            <div class="button">
+               <div class="inner"></div>
+               <button>Registrar</button>
+            </div>
+         </form>
+         <div class="signup">
+            Já é registrado? <a href="../Auth.html">Faça Login</a>
+         </div>
+      </div>
+      <script>
+         var input = document.querySelector('.pswrd');
+         var show = document.querySelector('.show');
+         show.addEventListener('click', active);
+         function active(){
+           if(input.type === "password"){
+             input.type = "text";
+             show.style.color = "#1DA1F2";
+             show.textContent = "Esconder";
+           }else{
+             input.type = "password";
+             show.textContent = "Mostrar";
+             show.style.color = "#111";
+           }
+         }
+      </script>
+   </body>
+</html>
