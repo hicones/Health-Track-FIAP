@@ -22,6 +22,6 @@ Este é um site totalmente responsivo feito em html/css feito para o projeto.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-### Todo front-end do projeto foi desenvolvido por mim, a plataforma ainda está em desenvolvimento e em breve postarei aqui.
+#### Todo front-end do projeto foi desenvolvido por mim, a plataforma ainda está em desenvolvimento e em breve postarei aqui.
 
-#LetsRockTheFuture #ADS2021FIAP
+### #LetsRockTheFuture #ADS2021FIAP
