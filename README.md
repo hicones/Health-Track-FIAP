@@ -1,6 +1,6 @@
 # Health-Track-FIAP
 Health Track é um projeto em desenvolvimento no primeiro ano de Análise e desenvolvimento de sistemas da FIAP.
-Este é um site totalmente responsivo feito em html/css feito para o projeto.
+Este é um site totalmente responsivo em html/css feito para o projeto.
 
 ## Uma demonstração da tela de autenticação:
 
