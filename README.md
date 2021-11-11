@@ -12,8 +12,12 @@ Imagem demonstrando as cores da página.
 ![Auth](https://user-images.githubusercontent.com/59674959/141241986-270a62ca-1264-4ab5-87e7-fb6f420dd0af.gif)
 Gif demonstrando a experiência do usuário.
 
-<br>
+------------------------------------------------------------------------------------------------------------------------------
 
 <br>
 
 Agora vai uma demonstração da página Home do site com toda a experiência do usuário.
+
+![Home](https://user-images.githubusercontent.com/59674959/141242996-5b94c554-9938-4154-85ec-b88e29378c7e.gif)
+
+------------------------------------------------------------------------------------------------------------------------------
